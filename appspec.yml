@@ -1,0 +1,12 @@
+#testing webhook
+version: 0.0
+os: linux
+files:
+  - source: src/
+    destination: /var/www/html
+hooks:W
+  ApplicationStart:
+    - location: script/start_server.sh
+      timeout: 300
+      runas: root
+	  
