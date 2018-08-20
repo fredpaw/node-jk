@@ -2,9 +2,9 @@
 version: 0.0
 os: linux
 files:
-  - source: src/
+  - source: src
     destination: /var/www/html
-hooks:W
+hooks:
   ApplicationStart:
     - location: script/start_server.sh
       timeout: 300

@@ -1,2 +1,1 @@
-cd /var/www/html/
-node app.js
+node /var/www/html/app.js
